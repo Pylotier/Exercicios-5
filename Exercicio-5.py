@@ -14,7 +14,7 @@ C = int(input("Digite o valor do coeficiente C:"))
 delta = B**2 - 4*A*C
 delta = delta**0.5
 print(delta)
-resPositivo = (-B+delta)/2*A
-resNegativo = (-B-delta)/2*A
+resPositivo = (-B+delta)/ (2*A)
+resNegativo = (-B-delta)/ (2*A)
 print("Resultado positivo:", resPositivo, "e negativo:", resNegativo)
 #Fim
